@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: midnightblue;
+    font-size: 50px;;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(194, 194, 194, 0.721);
+    letter-spacing: 4px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: rgba(194, 194, 194, 0.721);
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    word-spacing: 80px;
+    padding: 8px;
+}
+
+nav a {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+} 
+
+.homepage {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+#about {
+    position: relative;
+    top: 200px;
+}
+
+
+#portfolio {
+    position: relative;
+    top: 400px;
+}
+
+#contact {
+    position: relative;
+    top: 600px;
+}
+
+@media (min-width: 992px) {
+    body {
+        background: whitesmoke;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        background: white;
+    }
+}
